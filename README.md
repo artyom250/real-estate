@@ -15,5 +15,12 @@ The website provides all necessary tools, including a search bar to filter prope
 
 * Homepage
     * Hero
+    * Featured
+    * Banner
+    * Categories
+    * Quote
+    * FAQ
+    * Contact
 * Properties
 * Blog
+* Footer
