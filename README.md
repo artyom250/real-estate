@@ -1,3 +1,5 @@
+![Example Image](./public/images/final.png)
+
 # Real Estate Website
 
 Real Estate Website built by React that captivates your attention from the first glance, where style seamlessly matches the user interface experience. This model ensures convenient and relaxing usage while scrolling and navigating. The responsiveness of all elements in this model guarantees a pleasing user experience on different devices with various screen sizes.
