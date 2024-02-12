@@ -1,4 +1,4 @@
-![Example Image](./public/images/final.png)
+![Example Image](./public/final.png)
 
 # Real Estate Website
 
