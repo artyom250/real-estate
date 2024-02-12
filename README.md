@@ -1,8 +1,3 @@
-# React + Vite
+# Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real Estate Website built by React that captivates your attention from the first glance, where style seamlessly matches the user interface experience. This model ensures convenient and relaxing usage while scrolling and navigating.
