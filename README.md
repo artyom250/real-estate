@@ -11,3 +11,9 @@ The website provides all necessary tools, including a search bar to filter prope
 * Fully Responsive
 * Compatibility with Browsers
 
+### Sections
+
+* Homepage
+    * Hero
+* Properties
+* Blog
