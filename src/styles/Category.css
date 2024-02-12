@@ -1,0 +1,165 @@
+.cat-above {
+    overflow: auto;
+    max-width: 762.78px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+}
+
+.categories {
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    padding: 10px;
+}
+
+.categories p {
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    min-width: max-content;
+}
+
+.objects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.objects.property {
+    margin-top: 60px;
+}
+
+.objects form {
+    grid-row: span 3;
+}
+
+.objects form {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+}
+
+.objects form input {
+    border: none;
+    outline: none;
+    padding: 25px;
+    border: 2px solid #7065f0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.objects form button {
+    background: #7065f0;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.objects form input:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.objects form h2 {
+    color: #7065f0;
+    margin-bottom: 30px;
+}
+
+.house {
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+    transition: 0.3s;
+}
+
+.house-img {
+    position: relative;
+    padding: 10px;
+}
+
+.house-img img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.info.hus p {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.type.hus {
+    position: absolute;
+    margin: 30px;
+    top: 0%;
+}
+
+.block-link-two.hus {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+@media(max-width: 1300px) {
+    .objects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .objects form {
+        grid-row: initial;
+        grid-column: span 2;
+    }
+}
+
+@media(max-width: 1100px) {
+    .house {
+        border-radius: 15px;
+    }
+
+    .house-img img {
+        border-radius: 15px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .objects.property form {
+        grid-column: initial;
+    }
+
+    .objects.property form input {
+        width: 100%;
+    }
+
+    .objects.property {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 800px) {
+    .objects {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 400px) {
+    .type.hus {
+        margin: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    .objects form h2 {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,141 @@
+.Navbar {
+    position: fixed;
+    padding: 0px 150px;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 110px;
+    transition: 0.3s;
+}
+
+.Navbar.active {
+    background: white;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.1);
+    height: 95px;
+}
+
+.navbar.active {
+    height: 95px;
+}
+
+.logo {
+    display: flex;
+    max-width: 115px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar ul li a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contact {
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-right i {
+    color: black;
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media(max-width: 1300px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .nav-right i {
+        display: flex;
+    }
+
+    .Navbar {
+        padding: 0px 100px;
+    }
+    
+    .Page {
+        padding: 250px 100px 135px 100px;
+    }
+}
+
+@media(max-width: 750px) {
+    .Navbar {
+        padding: 0px 80px;
+    }
+
+    .Page {
+        padding: 250px 80px 135px 80px;
+    }
+
+    .nav-right {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .Navbar {
+        padding: 0px 50px;
+    }
+
+    .Page {
+        padding: 250px 50px 135px 50px;
+    }
+}
+
+@media(max-width: 500px) {
+    .contact {
+        display: none;
+    }
+
+    .Page {
+        padding: 180px 50px 135px 50px;
+    }
+}
+
+@media(max-width: 420px) {
+    .Navbar {
+        padding: 0px 40px;
+    }
+
+    .Page {
+        padding: 180px 40px 135px 40px;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+}
+

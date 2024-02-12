@@ -1,0 +1,156 @@
+footer {
+    background: #f1f0fe;
+    padding: 60px;
+    margin: 0px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+}
+
+.f-flex1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.f-links {
+    display: flex;
+    gap: 60px;
+}
+
+footer div h2 {
+    color: #7065f0;
+    font-size: 20px;
+}
+
+footer div ul {
+    margin-top: 25px;
+}
+
+footer div ul li a {
+    color: #828282;
+    font-size: 15px;
+}
+
+footer div ul li:not(:nth-child(1)) {
+    margin-top: 13px;
+}
+
+.f-desc {
+    color: #828282;
+    margin-top: 25px;
+    font-size: 15px;
+    max-width: 450px;
+    line-height: 1.7em;
+}
+
+.search.sub {
+    padding-top: 30px;
+    width: 454.45px;
+}
+
+.f-flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.f-flex2 .logo {
+    background-color: white;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.f-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.f-contact div p:nth-child(1) {
+    color: #7065f0;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.f-contact div a {
+    color: #828282;
+    font-size: 15px;
+}
+
+.copyright {
+    color: #828282;
+    display: inline-block;
+    padding-top: 60px;
+    font-size: 15px;
+}
+
+.copyright span {
+    color: #7065f0;
+    font-weight: 700;
+}
+
+@media(max-width: 1250px) {
+    .f-links {
+        flex-direction: column;
+        gap: 55px;
+    }
+}
+
+@media(max-width: 900px) {
+    .f-flex1 {
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .search.sub {
+        width: 100%;
+    }
+
+    .f-flex2 {
+        flex-direction: column;
+        align-items: start;
+        gap: 45px;
+    }
+
+    .f-contact {
+        gap: 25px;
+    }
+}
+
+@media(max-width: 750px) {
+    footer {
+        margin: 0px 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    footer {
+        padding: 60px 30px;
+        margin: 0px 0px;
+    }
+
+    .search.sub button {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .search.sub form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search.sub form input {
+        padding: 20px;
+        margin-left: initial;
+        box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+        border-radius: 10px;
+    }
+
+    .search.sub button {
+        width: 100%;
+    }
+}
+
